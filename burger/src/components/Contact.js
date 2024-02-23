@@ -42,7 +42,7 @@ const Contact = () => {
             value={values.nameSurname}
             onChange={handleChange}
             id="nameSurname"
-            name="name"
+            name="nameSurname"
             placeholder="Lütfen Adınızı ve Soyadınızı Giriniz..."
             autoComplete="off"
             className={errors.nameSurname ? "input-error" : ""}
@@ -69,7 +69,7 @@ const Contact = () => {
             value={values.text}
             onChange={handleChange}
             id="text"
-            name="message"
+            name="text"
             rows="6"
             placeholder="Lütfen Mesajınızı Giriniz..."
             autoComplete="off"
